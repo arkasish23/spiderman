@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav side.css"/>
+    <link rel="stylesheet" href="normal gallery.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+     body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        nav {
+            background-color: rgb(12, 44, 56);
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: flex;
+            color: white;
+            /* text-align: center; */
+            padding: 24px 16px 20px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: rgb(12, 50, 65);
+            color: rgb(255, 254, 254);
+            transition: transform 0.3s;
+            
+        }
+        
+
+
+         /* CSS for the image gallery */
+         .gallery {
+            background-color: rgb(5, 38, 48);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 100px;
+            padding: 200px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+        h1{
+            color: aliceblue;
+            text-align: center;
+            padding: 0;
+        }
+        /* footer */
+       
+
+        footer {
+            background-color: rgb(12, 44, 56);
+            color: rgb(245, 245, 245);
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #ddd;
+        }
+        /* video */
+        #text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        #text-overlay h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        /* paragraph */
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.game-description {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.game-description p {
+    line-height: 1.6;
+    
+}
+strong{
+    display: block;
+}
+
+/* viewmore */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.game-description {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.game-description p {
+    line-height: 1.6;
+}
+
+.additional-content {
+    display: none;
+}
+
+#viewMoreBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+/* book now button */
+#book-now-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            margin-left: 730px;
+        }
+
+        #book-now-btn i {
+            margin-right: 8px;
+        }
+
+        #book-now-btn:hover {
+            background-color: #45a049;
+        }
+
+
+</style>
+<body>
+    
+    <nav>
+        
+        <a href="#home">GAME</a>
+        <a href="#rooms">CAREERS</a>
+        <a href="#amenities">NEWS</a>
+        <a href="#dining">COMMUNITY</a>
+        <a href="#contact">SUPPORT</a>
+       
+    </nav>
+    <video src="2023-11-16 18-56-21.mp4" autoplay preload="auto" controls width="100%" muted></video>
+    <div id="text-overlay">
+        <h1>Welcome to our Game Website</h1>
+        <p>Explore the world of gaming excellence</p>
+    </div>
+
+    <div id="sideNav">
+        <a href="#home"><i class="fa-solid fa-house"></i></a>
+        <a href="#games"><i class="fas fa-gamepad"></i></a>
+        <a href="#about"><i class="fas fa-newspaper"></i></a>
+        <a href="#contact"><i class="fas fa-cogs"></i></a>
+    </div>
+
+
+
+
+
+
+       <h1>
+         Image gallery
+       </h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+           <a href=""> <img src="maxresdefault.jpg" alt="Image 1"></a>
+           
+        </div>
+        <div class="gallery-item">
+            <a href=""><img src="msm2_sgf_4k_steelbookart_legal_2023.jpg" alt="Image 2"></a>
+           
+        </div>
+        <div class="gallery-item">
+          <a href=""><img src="spiderheader.jpg" alt="Image 3"></a>
+        </div>
+        <!-- Add more images here -->
+    </div>
+<!-- image gallery normal -->
+<div class="normal ">
+    <div class="gallery-item1">
+        <img src="MSMR_PC_Launch_4k_Hero_Legal-scaled.jpg" alt="Image 1">
+    </div>
+    <div class="gallery-item1">
+        <img src="Spider_Man_PS4_2018_04_04_18_002.jpg" alt="Image 2">
+    </div>
+    <div class="gallery-item1">
+        <img src="MV5BZGQ4MzIzMDMtMzZmMy00MjI1LWEzNWUtNDBjZmYxNGZjYzIyXkEyXkFqcGdeQXVyMTYwNjEwMzk0._V1_.jpg" alt="Image 3">
+    </div>
+</div>
+<a href="#"><button id="viewMoreBtn" >View More</button></a>
+
+
+<section class="game-description">
+    <p>Welcome to the thrilling world of <strong>Spider man 2</strong>.<br> The next game in the Marvel’s Spider-Man franchise, coming to the PlayStation®5 console.
+
+        Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure in the critically acclaimed Marvel’s Spider-Man franchise for PS5.
+        
+        Swing, jump and utilize the new Web Wings to travel across Marvel’s New York, quickly switching between Peter Parker and Miles Morales to experience different stories and epic new powers, as the iconic villain Venom threatens to destroy their lives, their city and the ones they love.</p>
+</section>
+<section class="game-description">
+    <p> AN EVOLUTION OF THE SPIDER-MAN STORY
+        The incredible power of the symbiote forces Peter and Miles to face the ultimate test of strength, both inside and outside the mask, as they balance their lives, friendships and their duty to protect those in need.
+        
+        EXPERIENCE TWO PLAYABLE SPIDER-MEN
+        Quickly swap between both Spider-Men as you explore an expanded Marvel’s New York.
+        
+        BATTLE ICONIC MARVEL SUPER VILLAINS
+        Fight against a variety of new and iconic villains, including an original take on the monstrous Venom, the ruthless Kraven the Hunter, the volatile Lizard and many more!
+        
+        VISIT AN EXPANDED MARVEL’S NEW YORK
+        Explore a larger Marvel’s New York than ever before, featuring two new boroughs – Brooklyn and Queens – as well as locations like Coney Island and more.</p>
+</section>
+<!-- view more -->
+<header>
+    <h1>Awesome Game </h1>
+</header>
+
+<section class="game-description" id="gameDescription">
+    <p><strong>spider world</strong>. Immerse yourself in an epic adventure where every decision you make shapes the course of the game. With stunning graphics, captivating storyline, and challenging quests, this game promises an unparalleled gaming experience.</p>
+    <div class="additional-content" id="additionalContent">
+        <p>Uncover hidden treasures, battle fierce monsters, and engage in epic boss fights. The world of <strong>Awesome Game Title</strong> awaits your exploration. Are you ready for the ultimate gaming experience?</p>
+    </div>
+
+    <a href="#"><button id="viewMoreBtn" >View More</button></a>
+</section>
+
+<script src="script.js">document.getElementById('viewMoreBtn').addEventListener('click', function() {
+    var additionalContent = document.getElementById('additionalContent');
+    additionalContent.style.display = (additionalContent.style.display === 'none' || additionalContent.style.display === '') ? 'block' : 'none';
+});</script>
+
+
+<!-- book now -->
+<button id="book-now-btn" onclick="window.location.href='//www.playstation.com/en-in/games/marvels-spider-man-2/'"><i class="fas fa-book"></i> Book Now</button>
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <footer>
+        <p>&copy; 2023 Your Game Website. All rights reserved. | 
+
+            Developed by <a href="https://yourdeveloperwebsite.com" target="_blank">Your Developer</a>
+        </p>
+        <a href="https://www.facebook.com/profile.php?id=100013869672204"><i class="fab fa-facebook"></i></a>
+        <a href="#contact"><i class="fab fa-whatsapp"></i></a>
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+#sideNav {
+    height: 50px;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+    padding-top: 200px;
+    margin-top: 150px;
+}
+
+#sideNav a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sideNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#mainContent {
+    margin-left: 50px;
+    padding: 20px;
+}
